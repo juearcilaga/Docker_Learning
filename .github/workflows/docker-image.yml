@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image alpine
-      run: docker build . --file Dockerfile --tag alpineC2023:$(date +%s)
+      run: docker build . --file Dockerfile --tag alpinec2023:$(date +%s)
